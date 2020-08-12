@@ -19,7 +19,7 @@ public class diceCommand extends Command{
         this.help = "This command requires 2 arguments to roll the dice. Your first input is the dice selection, the second is the modifier. If no modifier simply put in 0. Example !dice 20 3";
         this.arguments = "<item> <item>";
     }
-//test
+
     @Override
     protected void execute(CommandEvent event) {
         if (event.getArgs().isEmpty()) {
